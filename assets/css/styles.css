@@ -693,7 +693,7 @@ a:hover {
 
 .row.text-center.login-content-heading {
   margin-bottom: 40px;
-  margin-top: 20px;
+  margin-top: -22px;
 }
 
 .col.login-content-heading h1 {
@@ -854,5 +854,17 @@ a:hover {
 
 .rounded {
   border-radius: .9rem!important;
+}
+
+.row.text-center.radio-login {
+  margin-top: -41px;
+}
+
+.row.form-login {
+  margin-top: -28px;
+}
+
+.row.form-signup {
+  margin-top: -60px;
 }
 
