@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>BlaBla.com</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Accordion-with-custom-design.css">
+    <link rel="stylesheet" href="assets/css/Animation-Cards-1.css">
+    <link rel="stylesheet" href="assets/css/Animation-Cards.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap-4---Tabs-with-Arrows.css">
+    <link rel="stylesheet" href="assets/css/Brands.css">
+    <link rel="stylesheet" href="assets/css/Corporate-Footer-Clean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/Login-Box-En.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Tabbed_slider-1.css">
+    <link rel="stylesheet" href="assets/css/Tabbed_slider.css">
+    <link rel="stylesheet" href="assets/css/tabs-Menu.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean-button">
+        <div class="container"><a class="navbar-brand" href="index.html">BLA BLA</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav mx-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Products</a>
+                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="e-invitation.html">E-Invitation</a><a class="dropdown-item" role="presentation" href="album.html">Albums</a><a class="dropdown-item" role="presentation" href="documenter.html">Documenters</a>
+                            <a
+                                class="dropdown-item" role="presentation" href="eo.html">Event Organizer</a>
+                        </div>
+                    </li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="faq.html">FAQ</a></li>
+                </ul><span class="navbar-text actions"> <a class="login" href="login.html">Log In</a><a class="btn btn-light action-button" role="button" href="signup.html">Sign Up</a></span>
+                <ul class="nav navbar-nav">
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link language" data-toggle="dropdown" aria-expanded="false" href="#"><i class="icon ion-earth"></i></a>
+                        <div class="dropdown-menu text-center language" role="menu"><a class="dropdown-item" role="presentation" href="#">Indonesia<img class="img-fluid" src="assets/img/Flag_of_Indonesia.svg" width="20%" height="20%"></a><a class="dropdown-item" role="presentation" href="#">English<img class="img-fluid" width="20%" height="20%" src="assets/img/Flag_of_the_United_States.svg"></a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <div class="carousel slide" data-ride="carousel" id="carousel-1">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/mojave_dynamic_1.jpeg" alt="Slide Image"></div>
+                <div class="carousel-item"><img class="w-100 d-block" src="assets/img/mojave_dynamic_2.jpeg" alt="Slide Image"></div>
+                <div class="carousel-item"><img class="w-100 d-block" src="assets/img/mojave_dynamic_3.jpeg" alt="Slide Image"></div>
+            </div>
+            <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button"
+                    data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-1" data-slide-to="1"></li>
+                <li data-target="#carousel-1" data-slide-to="2"></li>
+            </ol>
+        </div>
+    </div>
+    <div class="container select-list">
+        <div class="row d-sm-flex align-items-sm-center">
+            <div class="col-3 text-center"><img src="assets/img/icon-product.svg">
+                <h3>Porducts&nbsp;</h3><select class="custom-select products"><optgroup label="Porducts"><option value="1">E-Invitation</option><option value="2">Albums</option><option value="3">Documenters</option><option value="4">Event Organizer</option></optgroup></select></div>
+            <div
+                class="col-3 text-center"><img src="assets/img/date-icon.svg">
+                <h3>Date</h3><input id="input-date" type="date"></div>
+        <div class="col-3 text-center"><img src="assets/img/icon-location.svg">
+            <h3>Location</h3><select class="custom-select"><optgroup label="Location"><option value="1" selected="">Jakarta</option><option value="2">Bogor</option><option value="3">Depok</option><option value="5">Tangerang</option><option value="6">Bekasi</option></optgroup></select></div>
+        <div
+            class="col-3 text-center"><button class="btn btn-primary btn-lg" id="search-btn" type="submit"><img class="d-lg-flex" src="assets/img/search-icon.svg"></button></div>
+    </div>
+    </div>
+    <div>
+        <div class="row why-blabla">
+            <div class="col-6 text-left">
+                <div class="row">
+                    <div class="col intro-blabla">
+                        <h4><strong>Why Bla Bla?</strong><br></h4>
+                        <p>Order faster, fill in event data with one click. Make it easy for you to rearrange events. No-fuss bookings wherever and whenever. Refunds without hassle from applications or websites.<br></p>
+                    </div>
+                </div>
+                <div class="row why-point">
+                    <div class="col icon"><img class="d-xl-flex" src="assets/img/bg-key.svg"></div>
+                    <div class="col why-point">
+                        <h1><strong>Easy Booking</strong><br></h1>
+                        <p>Order EO or WO easily and quickly.<br></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col icon"><img src="assets/img/bg-key.svg"></div>
+                    <div class="col why-point">
+                        <h1><strong>Many Choices of The Best EO &amp; WO</strong><br></h1>
+                        <p>There are many choices of EO and WO with the most complete equipment throughout the world.<br></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col icon"><img src="assets/img/bg-key.svg"></div>
+                    <div class="col why-point">
+                        <h1><strong>Many Choices For How To Pay</strong><br></h1>
+                        <p>When a transaction at blabla.com, you can choose the payment method as desired.<br></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col icon"><img src="assets/img/bg-key.svg"></div>
+                    <div class="col why-point">
+                        <h1><strong>24/7 Costumer Care</strong><br></h1>
+                        <p>Through 24/7 Customer Care services, we will always be there for you.<br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col"><img class="img-fluid" src="assets/img/women-illustration.svg" width="100%" height="100%"></div>
+        </div>
+    </div>
+    <div class="promo-content">
+        <div class="row text-center promo">
+            <div class="col promo-heading">
+                <h3><strong>Promo</strong></h3>
+                <p>Enjoy various executive promos at BlaBla.com<br></p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container promo">
+            <div class="row space-rows">
+                <div class="col">
+                    <div class="card cards-shadown cards-hover" data-aos="flip-left" data-aos-duration="950">
+                        <div class="card-header"><span class="space"><img id="wedding-img" src="assets/img/wedding-blabla.svg"></span>
+                            <div class="cardheader-text">
+                                <h4 id="heading-card">WEDDING&nbsp;<strong>BLABLA</strong></h4>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text sub-text-color">USE CODE : NEWYOU</p>
+                            <p class="card-text cardbody-sub-text">EXTRA 5% OFF</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card cards-shadown cards-hover" data-aos="slide-right" data-aos-duration="950">
+                        <div class="card-header"><span class="space"><img id="event-img" src="assets/img/event-blabla.svg"></span>
+                            <div class="cardheader-text">
+                                <h4 id="heading-card">EVENTS <strong>BLABLA</strong></h4>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text sub-text-color">USE CODE : NEWYOU</p>
+                            <p class="card-text cardbody-sub-text">EXTRA 25% OFF</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card cards-shadown cards-hover" data-aos="zoom-out-right" data-aos-duration="950">
+                        <div class="card-header cards-header-hover"><span class="space"><img id="yearbook-img" src="assets/img/yearbook-blabla.svg"></span>
+                            <div class="cardheader-text">
+                                <h4 id="heading-card">YEARBOOK <strong>BLABLA</strong></h4>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text sub-text-color">USE CODE : NEWYOU</p>
+                            <p class="card-text cardbody-sub-text">EXTRA 10% OFF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center">
+        <div class="row">
+            <div class="col blabla-daily-heading">
+                <h1><strong>Bla Bla Daily</strong></h1>
+                <p>Get tips and news for starting events<br></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row blabla-daily-content">
+                <div class="col"><img class="img-fluid daily" data-aos="flip-down" data-aos-duration="950" id="img-darken" src="assets/img/daily-1%201.svg"></div>
+            </div>
+            <div class="row blabla-daily-content">
+                <div class="col"><img class="img-fluid daily" data-aos="flip-up" data-aos-duration="950" id="img-darken" src="assets/img/daily-2%201.svg"></div>
+            </div>
+            <div class="row">
+                <div class="col"><img class="img-fluid daily" data-aos="flip-up" data-aos-duration="950" id="img-darken" src="assets/img/daily-3%201.svg"></div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="row text-center featured-on">
+            <div class="col featured-on-heading">
+                <h3><strong>Featured On</strong></h3>
+                <p>You are our priority! Therefore, Tiket.com collaborates with various catering service providers, media networks, beauticians, and event organizer providers to ensure that your events are always comfortable and enjoyable.<br></p>
+            </div>
+        </div>
+    </div>
+    <div class="brands"><a href="#"> <img src="assets/img/sponsor-img-1.svg"><img src="assets/img/sponsor-img-2.svg"><img src="assets/img/sponsor-img-3.svg"><img src="assets/img/sponsor-img-4.svg"><img src="assets/img/sponsor-img-5.svg"></a></div>
+    <div>
+        <div class="row text-center subscribe">
+            <div class="col subscribe-heading">
+                <h3><strong>Subscribe To Special Promos And Best Offers Newsletters</strong><br></h3>
+            </div>
+        </div>
+        <div class="row d-lg-flex justify-content-lg-center subscribe-content">
+            <div class="col-6 text-center"><img class="img-fluid" src="assets/img/Illustration-subs.svg" width="100%" height="100%"></div>
+            <div class="col">
+                <div class="row">
+                    <div class="col subscribe-content">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever<br></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center"><input type="text" id="email-column" placeholder="Enter Your Email Address"></div>
+                </div>
+                <div class="row text-center">
+                    <div class="col"><button class="btn btn-primary subscribe" type="button">Subscribe</button></div>
+                </div>
+                <div class="row">
+                    <div class="col subscribe-content">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially<br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="row line">
+            <div class="col">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="row">
+            <div class="col">
+                <footer class="page-footer">
+                    <div class="container">
+                        <div class="row footer">
+                            <div class="col-6 col-md-3 left">
+                                <h3><strong>BLA BLA</strong></h3>
+                                <p><strong>Grand Galaxy Park Lt. 2 No. 301 Pekayon, Bekasi.</strong><br></p>
+                                <h4>Contact</h4>
+                                <ul class="footer-links">
+                                    <li><a href="#">Info@blabla.com</a></li>
+                                    <li><a href="#">111.222.333.444</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-md-3 center">
+                                <h4>Helpful Link</h4>
+                                <ul class="footer-links">
+                                    <li><a href="#">Bla Bla</a></li>
+                                    <li><a href="#">Solution</a></li>
+                                    <li><a href="#">Industries</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Resources</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-md-3 center-2">
+                                <h4>About</h4>
+                                <ul class="footer-links">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Partners</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-md-3 right">
+                                <h4>Social</h4>
+                                <ul class="footer-links">
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="#">Instagram</a></li>
+                                    <li><a href="#">YouTube</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="footer-legal">
+                            <div class="float-md-right region"><a href="#">Indonesia</a></div>
+                            <div class="d-inline-block copyright">
+                                <p class="d-inline-block">Copyright © 2018. All rights reserved.<br></p>
+                            </div>
+                            <div class="d-inline-block legal-links">
+                                <div class="d-inline-block item">
+                                    <h5>Privacy Policy</h5>
+                                </div>
+                                <div class="d-inline-block item">
+                                    <h5>Terms of Use</h5>
+                                </div>
+                                <div class="d-inline-block item">
+                                    <h5>Legal</h5>
+                                </div>
+                                <div class="d-inline-block item">
+                                    <h5>License</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <div><a class="float-btn" data-toggle="tooltip" title="Could we help you?" data-placement="left" href="#"><i class="fab fa-whatsapp"></i></a></div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/Accordion-with-custom-design.js"></script>
+    <script src="assets/js/navbar-shadow.js"></script>
+    <script src="assets/js/Tabbed_slider.js"></script>
+    <script src="assets/js/tooltips.js"></script>
+</body>
+
+</html>
